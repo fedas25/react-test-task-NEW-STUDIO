@@ -1,7 +1,6 @@
 /* tslint:disable */
 // @ts-nocheck
-import React, { useEffect, useMemo, useState } from 'react';
-import { WeatherData } from '../types';
+import React from 'react';
 import { useWeatherData } from '../hooks/useWeatherData';
 
 type Props = {
